@@ -72,6 +72,20 @@ $ gh stats --user WeipengHu111
 
 <br/>
 
+<!-- WAKATIME -->
+<div align="center">
+
+```
+$ wakatime --weekly
+```
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+</div>
+
+<br/>
+
 <!-- ACTIVITY -->
 <div align="center">
 
