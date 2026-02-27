@@ -1,0 +1,95 @@
+<svg width="820" height="480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1.2s step-end infinite; }
+      text { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; }
+    </style>
+  </defs>
+
+  <!-- Window -->
+  <rect width="820" height="480" rx="12" fill="#0D1117"/>
+  <rect width="820" height="38" rx="12" fill="#161B22"/>
+  <rect y="26" width="820" height="12" fill="#161B22"/>
+  <circle cx="24" cy="19" r="7" fill="#FF5F57"/>
+  <circle cx="46" cy="19" r="7" fill="#FEBC2E"/>
+  <circle cx="68" cy="19" r="7" fill="#28C840"/>
+  <text x="410" y="24" text-anchor="middle" fill="#6B7280" font-size="13">weipeng@github — htop</text>
+
+  <!-- $ who am i -->
+  <text x="28" y="70" font-size="14"><tspan fill="#22C55E">$</tspan><tspan fill="#E6EDF3"> who am i</tspan></text>
+  <text x="28" y="92" font-size="14" fill="#E6EDF3" font-weight="bold">Weipeng Hu</text>
+  <text x="148" y="92" font-size="14" fill="#6B7280">— Full Stack Developer</text>
+  <text x="28" y="114" font-size="13" fill="#6B7280">Building products from mobile to cloud. Currently exploring AI Agents.</text>
+
+  <line x1="28" y1="130" x2="792" y2="130" stroke="#1C2333" stroke-width="1"/>
+
+  <!-- $ htop --skills -->
+  <text x="28" y="152" font-size="14"><tspan fill="#22C55E">$</tspan><tspan fill="#E6EDF3"> htop --skills</tspan></text>
+
+  <text x="28" y="178" font-size="11" fill="#6B7280">SKILL</text>
+  <text x="150" y="178" font-size="11" fill="#6B7280">USAGE</text>
+  <text x="510" y="178" font-size="11" fill="#6B7280">STACK</text>
+
+  <!-- Flutter -->
+  <text x="28" y="202" font-size="14" fill="#06B6D4">Flutter</text>
+  <rect x="150" y="189" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="189" width="330" height="18" rx="3" fill="#22C55E" opacity="0.85"/>
+  <text x="510" y="202" font-size="13" fill="#6B7280">Dart, Riverpod, Freezed</text>
+
+  <!-- Django -->
+  <text x="28" y="232" font-size="14" fill="#06B6D4">Django</text>
+  <rect x="150" y="219" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="219" width="310" height="18" rx="3" fill="#06B6D4" opacity="0.85"/>
+  <text x="510" y="232" font-size="13" fill="#6B7280">DRF, Python, Celery</text>
+
+  <!-- Next.js -->
+  <text x="28" y="262" font-size="14" fill="#06B6D4">Next.js</text>
+  <rect x="150" y="249" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="249" width="290" height="18" rx="3" fill="#7C3AED" opacity="0.85"/>
+  <text x="510" y="262" font-size="13" fill="#6B7280">React, TypeScript</text>
+
+  <!-- Python -->
+  <text x="28" y="292" font-size="14" fill="#06B6D4">Python</text>
+  <rect x="150" y="279" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="279" width="320" height="18" rx="3" fill="#FEBC2E" opacity="0.85"/>
+  <text x="510" y="292" font-size="13" fill="#6B7280">Django, Scripts, AI</text>
+
+  <!-- Cloud -->
+  <text x="28" y="322" font-size="14" fill="#06B6D4">Cloud</text>
+  <rect x="150" y="309" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="309" width="300" height="18" rx="3" fill="#F43F5E" opacity="0.85"/>
+  <text x="510" y="322" font-size="13" fill="#6B7280">Firebase, GCP, Docker</text>
+
+  <!-- AI -->
+  <text x="28" y="352" font-size="14" fill="#06B6D4">AI</text>
+  <rect x="150" y="339" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="339" width="270" height="18" rx="3" fill="#FF00FF" opacity="0.6"/>
+  <text x="510" y="352" font-size="13" fill="#6B7280">Claude API, Agents</text>
+
+  <!-- Database -->
+  <text x="28" y="382" font-size="14" fill="#06B6D4">Database</text>
+  <rect x="150" y="369" width="340" height="18" rx="3" fill="#161B22"/>
+  <rect x="150" y="369" width="280" height="18" rx="3" fill="#2DD4BF" opacity="0.75"/>
+  <text x="510" y="382" font-size="13" fill="#6B7280">PostgreSQL, Firestore</text>
+
+  <line x1="28" y1="400" x2="792" y2="400" stroke="#1C2333" stroke-width="1"/>
+
+  <!-- Status -->
+  <text x="28" y="422" font-size="13">
+    <tspan fill="#6B7280">Mem:</tspan><tspan fill="#22C55E"> coffee</tspan><tspan fill="#6B7280">/</tspan><tspan fill="#E6EDF3">∞</tspan>
+    <tspan fill="#6B7280">    Uptime:</tspan><tspan fill="#E6EDF3"> always shipping</tspan>
+    <tspan fill="#6B7280">    Load:</tspan><tspan fill="#FEBC2E"> 99%</tspan><tspan fill="#6B7280"> motivation</tspan>
+  </text>
+
+  <rect x="28" y="440" width="16" height="10" rx="2" fill="#22C55E"/>
+  <rect x="50" y="440" width="16" height="10" rx="2" fill="#06B6D4"/>
+  <rect x="72" y="440" width="16" height="10" rx="2" fill="#7C3AED"/>
+  <rect x="94" y="440" width="16" height="10" rx="2" fill="#FEBC2E"/>
+  <rect x="116" y="440" width="16" height="10" rx="2" fill="#F43F5E"/>
+  <rect x="138" y="440" width="16" height="10" rx="2" fill="#FF00FF"/>
+  <rect x="160" y="440" width="16" height="10" rx="2" fill="#2DD4BF"/>
+  <text x="200" y="450" font-size="11" fill="#374151">Tasks: 7 skills, 3 frameworks, 4 languages    PID: 2024</text>
+
+  <rect x="780" y="438" width="8" height="14" rx="1" fill="#22C55E" class="cursor"/>
+</svg>
