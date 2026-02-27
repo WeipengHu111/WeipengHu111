@@ -55,7 +55,7 @@ $ ls ~/toolkit/
 <div align="center">
 
 ```
-$ gh stats --user WeipengHu111        # github-readme-stats + streak-stats
+$ gh stats --user WeipengHu111
 ```
 
 <br/>
@@ -72,68 +72,11 @@ $ gh stats --user WeipengHu111        # github-readme-stats + streak-stats
 
 <br/>
 
-<!-- WAKATIME -->
-<div align="center">
-
-```
-$ wakatime --weekly                    # waka-readme-stats
-```
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.66%20million%20lines%20of%20code-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 129 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 8 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-```
-
-
- Last Updated on 27/02/2026 07:08:14 UTC
-<!--END_SECTION:waka-->
-
-</div>
-
-<br/>
-
-<!-- METRICS — lowlighter/metrics -->
-<div align="center">
-
-```
-$ metrics --detailed                   # lowlighter/metrics
-```
-
-<img width="49%" src="./metrics-languages.svg" alt="Languages" />
-&nbsp;
-<img width="49%" src="./metrics-habits.svg" alt="Habits" />
-
-</div>
-
-<br/>
-
 <!-- ACTIVITY -->
 <div align="center">
 
 ```
-$ gh contribution-graph                # github-readme-activity-graph
+$ gh contribution-graph
 ```
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=WeipengHu111&theme=github-compact&hide_border=true&bg_color=0D1117&color=22C55E&line=06B6D4&point=FEBC2E&area=true&area_color=22C55E" />
