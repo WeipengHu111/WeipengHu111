@@ -84,7 +84,7 @@ $ gh stats --user WeipengHu111
 $ wc -l ~/code/**/*
 ```
 
-<img width="100%" src="https://github-readme-stats-eight-psi-80.vercel.app/api/loc-chart?username=WeipengHu111&include_orgs=askitect,myascendai&months=6&bg_color=0D1117&title_color=22C55E&line_color=06B6D4&area_color=22C55E&point_color=FEBC2E&text_color=E6EDF3" />
+<img width="100%" src="https://github-readme-stats-eight-psi-80.vercel.app/api/loc-chart?username=WeipengHu111&include_orgs=askitect,myascendai&months=6&bg_color=0D1117&title_color=22C55E&area_color=22C55E&text_color=E6EDF3&v=3" />
 
 </div>
 
