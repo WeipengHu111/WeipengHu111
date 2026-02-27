@@ -60,9 +60,9 @@ $ gh stats --user WeipengHu111
 
 <br/>
 
-<img height="170" src="https://github-readme-stats-eight-psi-80.vercel.app/api?username=WeipengHu111&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22C55E&icon_color=06B6D4&text_color=E6EDF3&ring_color=22C55E&rank_icon=percentile&count_private=true&include_all_commits=true" />
+<img height="170" src="https://github-readme-stats-eight-psi-80.vercel.app/api?username=WeipengHu111&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22C55E&icon_color=06B6D4&text_color=E6EDF3&ring_color=22C55E&rank_icon=percentile&count_private=true&include_all_commits=true&v=2" />
 &nbsp;
-<img height="170" src="https://github-readme-stats-eight-psi-80.vercel.app/api/top-langs/?username=WeipengHu111&layout=compact&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E6EDF3&langs_count=8&count_private=true&include_orgs=askitect,myascendai" />
+<img height="170" src="https://github-readme-stats-eight-psi-80.vercel.app/api/top-langs/?username=WeipengHu111&layout=compact&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E6EDF3&langs_count=8&count_private=true&include_orgs=askitect,myascendai&v=2" />
 
 <br/><br/>
 
