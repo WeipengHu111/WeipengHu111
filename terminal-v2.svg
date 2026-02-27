@@ -80,43 +80,43 @@
   <!-- Track bg -->
   <rect x="150" y="189" width="340" height="18" rx="3" fill="url(#track)" class="f5"/>
   <!-- Animated bar -->
-  <rect x="150" y="189" height="18" rx="3" fill="#22C55E" opacity="0.85" class="bar1"/>
+  <rect x="150" y="189" width="330" height="18" rx="3" fill="#22C55E" opacity="0.85" class="bar1"/>
   <text x="510" y="202" class="mono f5" font-size="13" fill="#6B7280">Dart, Riverpod, Freezed</text>
 
   <!-- ROW 2: Django — cyan bar -->
   <text x="28" y="232" class="mono f6" font-size="14" fill="#06B6D4">Django</text>
   <rect x="150" y="219" width="340" height="18" rx="3" fill="url(#track)" class="f6"/>
-  <rect x="150" y="219" height="18" rx="3" fill="#06B6D4" opacity="0.85" class="bar2"/>
+  <rect x="150" y="219" width="310" height="18" rx="3" fill="#06B6D4" opacity="0.85" class="bar2"/>
   <text x="510" y="232" class="mono f6" font-size="13" fill="#6B7280">DRF, Python, Celery</text>
 
   <!-- ROW 3: Next.js — purple bar -->
   <text x="28" y="262" class="mono f7" font-size="14" fill="#06B6D4">Next.js</text>
   <rect x="150" y="249" width="340" height="18" rx="3" fill="url(#track)" class="f7"/>
-  <rect x="150" y="249" height="18" rx="3" fill="#7C3AED" opacity="0.85" class="bar3"/>
+  <rect x="150" y="249" width="290" height="18" rx="3" fill="#7C3AED" opacity="0.85" class="bar3"/>
   <text x="510" y="262" class="mono f7" font-size="13" fill="#6B7280">React, TypeScript</text>
 
   <!-- ROW 4: Python — yellow bar -->
   <text x="28" y="292" class="mono f8" font-size="14" fill="#06B6D4">Python</text>
   <rect x="150" y="279" width="340" height="18" rx="3" fill="url(#track)" class="f8"/>
-  <rect x="150" y="279" height="18" rx="3" fill="#FEBC2E" opacity="0.85" class="bar4"/>
+  <rect x="150" y="279" width="320" height="18" rx="3" fill="#FEBC2E" opacity="0.85" class="bar4"/>
   <text x="510" y="292" class="mono f8" font-size="13" fill="#6B7280">Django, Scripts, AI</text>
 
   <!-- ROW 5: Cloud — rose bar -->
   <text x="28" y="322" class="mono f9" font-size="14" fill="#06B6D4">Cloud</text>
   <rect x="150" y="309" width="340" height="18" rx="3" fill="url(#track)" class="f9"/>
-  <rect x="150" y="309" height="18" rx="3" fill="#F43F5E" opacity="0.85" class="bar5"/>
+  <rect x="150" y="309" width="300" height="18" rx="3" fill="#F43F5E" opacity="0.85" class="bar5"/>
   <text x="510" y="322" class="mono f9" font-size="13" fill="#6B7280">Firebase, GCP, Docker</text>
 
   <!-- ROW 6: AI Agents — magenta bar -->
   <text x="28" y="352" class="mono f10" font-size="14" fill="#06B6D4">AI</text>
   <rect x="150" y="339" width="340" height="18" rx="3" fill="url(#track)" class="f10"/>
-  <rect x="150" y="339" height="18" rx="3" fill="#FF00FF" opacity="0.6" class="bar6"/>
+  <rect x="150" y="339" width="270" height="18" rx="3" fill="#FF00FF" opacity="0.6" class="bar6"/>
   <text x="510" y="352" class="mono f10" font-size="13" fill="#6B7280">Claude API, Agents</text>
 
   <!-- ROW 7: Database — teal bar -->
   <text x="28" y="382" class="mono f11" font-size="14" fill="#06B6D4">Database</text>
   <rect x="150" y="369" width="340" height="18" rx="3" fill="url(#track)" class="f11"/>
-  <rect x="150" y="369" height="18" rx="3" fill="#2DD4BF" opacity="0.75" class="bar7"/>
+  <rect x="150" y="369" width="280" height="18" rx="3" fill="#2DD4BF" opacity="0.75" class="bar7"/>
   <text x="510" y="382" class="mono f11" font-size="13" fill="#6B7280">PostgreSQL, Firestore</text>
 
   <!-- ===== SEPARATOR ===== -->
