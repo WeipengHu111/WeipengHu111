@@ -1,0 +1,116 @@
+<svg width="800" height="435" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      .cursor { animation: blink 1.2s step-end infinite; }
+      .line1 { animation: fadeIn 0.3s 0.2s both; }
+      .line2 { animation: fadeIn 0.3s 0.5s both; }
+      .line3 { animation: fadeIn 0.3s 0.8s both; }
+      .line4 { animation: fadeIn 0.3s 1.0s both; }
+      .line5 { animation: fadeIn 0.3s 1.2s both; }
+      .line6 { animation: fadeIn 0.3s 1.4s both; }
+      .line7 { animation: fadeIn 0.3s 1.6s both; }
+      .line8 { animation: fadeIn 0.3s 1.8s both; }
+      .line9 { animation: fadeIn 0.3s 2.0s both; }
+      .line10 { animation: fadeIn 0.3s 2.2s both; }
+      .line11 { animation: fadeIn 0.3s 2.4s both; }
+      .line12 { animation: fadeIn 0.3s 2.6s both; }
+      .line13 { animation: fadeIn 0.3s 2.8s both; }
+      .line14 { animation: fadeIn 0.3s 3.0s both; }
+      .prompt { fill: #22C55E; }
+      .info-key { fill: #06B6D4; }
+      .info-val { fill: #E6EDF3; }
+      .comment { fill: #6B7280; }
+      .ascii { fill: #7C3AED; }
+      .separator { fill: #374151; }
+    </style>
+  </defs>
+
+  <!-- Window -->
+  <rect width="800" height="435" rx="12" fill="#0D1117"/>
+  <rect width="800" height="36" rx="12" fill="#161B22"/>
+  <rect y="24" width="800" height="12" fill="#161B22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="18" r="7" fill="#FF5F57"/>
+  <circle cx="46" cy="18" r="7" fill="#FEBC2E"/>
+  <circle cx="68" cy="18" r="7" fill="#28C840"/>
+
+  <!-- Title bar text -->
+  <text x="400" y="22" text-anchor="middle" fill="#6B7280" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">weipeng@github:~</text>
+
+  <!-- Terminal content -->
+
+  <!-- Command -->
+  <text x="24" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line1">
+    <tspan class="prompt">$</tspan>
+    <tspan class="info-val"> neofetch</tspan>
+  </text>
+
+  <!-- ASCII Art (left side) + Info (right side) -->
+  <!-- ASCII -->
+  <text x="24" y="100" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" class="ascii line2">    ██╗    ██╗██████╗ </text>
+  <text x="24" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" class="ascii line3">    ██║    ██║██╔══██╗</text>
+  <text x="24" y="136" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" class="ascii line4">    ██║ █╗ ██║██████╔╝</text>
+  <text x="24" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" class="ascii line5">    ╚██╗╔██╗╔╝██╔═══╝ </text>
+  <text x="24" y="172" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" class="ascii line6">     ╚═╝╚═╝╚═╝██║     </text>
+  <text x="24" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" class="ascii line7">               ╚═╝     </text>
+
+  <!-- Info (right side, aligned with ASCII) -->
+  <text x="280" y="100" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line2">
+    <tspan class="info-val" font-weight="bold">weipeng</tspan><tspan class="separator">@</tspan><tspan class="info-val" font-weight="bold">dev</tspan>
+  </text>
+  <text x="280" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="separator line3">─────────────────────────</text>
+
+  <text x="280" y="136" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line4">
+    <tspan class="info-key">OS</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Full Stack Developer</tspan>
+  </text>
+  <text x="280" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line5">
+    <tspan class="info-key">Host</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Earth</tspan>
+  </text>
+  <text x="280" y="172" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line6">
+    <tspan class="info-key">Shell</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Flutter / Django / Next.js</tspan>
+  </text>
+  <text x="280" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line7">
+    <tspan class="info-key">Languages</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Dart, Python, TypeScript</tspan>
+  </text>
+  <text x="280" y="208" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line8">
+    <tspan class="info-key">AI</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Claude API / AI Agents</tspan>
+  </text>
+  <text x="280" y="226" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line9">
+    <tspan class="info-key">Cloud</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Firebase, GCP, Docker</tspan>
+  </text>
+  <text x="280" y="244" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line10">
+    <tspan class="info-key">DB</tspan><tspan class="separator">:</tspan><tspan class="info-val"> PostgreSQL, Firestore</tspan>
+  </text>
+  <text x="280" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line11">
+    <tspan class="info-key">Editor</tspan><tspan class="separator">:</tspan><tspan class="info-val"> VS Code + Neovim</tspan>
+  </text>
+
+  <!-- Color blocks -->
+  <text x="280" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line12">
+    <tspan class="info-key">Uptime</tspan><tspan class="separator">:</tspan><tspan class="info-val"> Always shipping</tspan>
+  </text>
+
+  <!-- Color bar -->
+  <rect x="280" y="302" width="24" height="14" rx="2" fill="#0D1117" class="line13"/>
+  <rect x="308" y="302" width="24" height="14" rx="2" fill="#FF5F57" class="line13"/>
+  <rect x="336" y="302" width="24" height="14" rx="2" fill="#FEBC2E" class="line13"/>
+  <rect x="364" y="302" width="24" height="14" rx="2" fill="#28C840" class="line13"/>
+  <rect x="392" y="302" width="24" height="14" rx="2" fill="#06B6D4" class="line13"/>
+  <rect x="420" y="302" width="24" height="14" rx="2" fill="#7C3AED" class="line13"/>
+  <rect x="448" y="302" width="24" height="14" rx="2" fill="#E6EDF3" class="line13"/>
+
+  <!-- Next command with cursor -->
+  <text x="24" y="350" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="line14">
+    <tspan class="prompt">$</tspan>
+    <tspan class="info-val"> cat philosophy.txt</tspan>
+  </text>
+  <text x="24" y="374" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="comment line14"># First, solve the problem. Then, write the code.</text>
+  <text x="24" y="398" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" class="comment line14"># Simple beats clever. Every time.</text>
+
+  <!-- Blinking cursor -->
+  <rect x="24" y="412" width="8" height="16" fill="#22C55E" class="cursor"/>
+
+</svg>
