@@ -72,14 +72,14 @@ $ gh stats --user WeipengHu111
 
 <br/>
 
-<!-- ACTIVITY -->
+<!-- LOC CHART -->
 <div align="center">
 
 ```
-$ gh contribution-graph
+$ wc -l ~/code/**/*
 ```
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=WeipengHu111&theme=github-compact&hide_border=true&bg_color=0D1117&color=22C55E&line=06B6D4&point=FEBC2E&area=true&area_color=22C55E" />
+<img width="100%" src="https://github-readme-stats-eight-psi-80.vercel.app/api/loc-chart?username=WeipengHu111&include_orgs=askitect,myascendai&bg_color=0D1117&title_color=22C55E&line_color=06B6D4&area_color=22C55E&point_color=FEBC2E&text_color=E6EDF3" />
 
 </div>
 
