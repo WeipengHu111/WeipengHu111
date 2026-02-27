@@ -33,7 +33,9 @@ $ ls ~/toolkit/
 </tr>
 <tr>
 <td align="right"><code>Tools</code></td>
-<td><img src="https://skillicons.dev/icons?i=bash,linux,npm,vscode,storybook,postman,githubactions,slack&theme=dark&perline=8" /></td>
+<td><img src="https://skillicons.dev/icons?i=bash,linux,npm,vscode,notion,postman,githubactions&theme=dark&perline=8" /><br/>
+<img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" />
+</td>
 </tr>
 <tr>
 <td align="right"><code>Services</code></td>
