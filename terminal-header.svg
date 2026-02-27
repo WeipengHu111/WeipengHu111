@@ -55,7 +55,7 @@
   <!-- ===== COMMAND ===== -->
   <text x="28" y="70" class="mono f1" font-size="14">
     <tspan fill="#22C55E">$</tspan>
-    <tspan fill="#E6EDF3"> whoami</tspan>
+    <tspan fill="#E6EDF3"> who am i</tspan>
   </text>
   <text x="28" y="92" class="mono f2" font-size="14" fill="#E6EDF3" font-weight="bold">Weipeng Hu</text>
   <text x="148" y="92" class="mono f2" font-size="14" fill="#6B7280">— Full Stack Developer</text>
