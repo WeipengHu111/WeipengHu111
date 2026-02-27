@@ -14,11 +14,13 @@
 $ ls ~/toolkit/
 ```
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,django,py,nextjs,react,ts,js&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=flutter,dart,swift,kotlin,go,ruby,py,ts&theme=dark&perline=8" />
 <br/>
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,nodejs,express,mongodb,tensorflow,bash&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=js,html,css,tailwind,django,nextjs,react,express&theme=dark&perline=8" />
 <br/>
-<img src="https://skillicons.dev/icons?i=firebase,gcp,docker,postgres,redis,git,github,vscode&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=nodejs,mongodb,postgres,redis,firebase,gcp,docker,tensorflow&theme=dark&perline=8" />
+<br/>
+<img src="https://skillicons.dev/icons?i=bash,linux,git,github,vscode&theme=dark&perline=8" />
 
 </div>
 
