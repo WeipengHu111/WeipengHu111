@@ -14,21 +14,38 @@
 $ ls ~/toolkit/
 ```
 
-<img src="https://skillicons.dev/icons?i=py,ts,js,dart,html,css,sass,tailwind&theme=dark&perline=8" />
-<br/>
-<img src="https://skillicons.dev/icons?i=flutter,django,nextjs,react,redux,threejs,express,nodejs&theme=dark&perline=8" />
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,supabase,aws,gcp&theme=dark&perline=8" />
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,pytorch,tensorflow,sentry,vitest,figma,git,github&theme=dark&perline=8" />
-<br/>
-<img src="https://skillicons.dev/icons?i=bash,linux,vscode&theme=dark&perline=8" />
-<br/><br/>
+<table>
+<tr>
+<td align="right"><code>Languages</code></td>
+<td><img src="https://skillicons.dev/icons?i=py,ts,js,dart,html,css,sass,tailwind&theme=dark&perline=8" /></td>
+</tr>
+<tr>
+<td align="right"><code>Frameworks</code></td>
+<td><img src="https://skillicons.dev/icons?i=flutter,django,nextjs,react,redux,threejs,express,nodejs&theme=dark&perline=8" /></td>
+</tr>
+<tr>
+<td align="right"><code>Data & Cloud</code></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,supabase,aws,gcp&theme=dark&perline=8" /></td>
+</tr>
+<tr>
+<td align="right"><code>DevOps & AI</code></td>
+<td><img src="https://skillicons.dev/icons?i=docker,pytorch,tensorflow,sentry,vitest,figma,git,github&theme=dark&perline=8" /></td>
+</tr>
+<tr>
+<td align="right"><code>Tools</code></td>
+<td><img src="https://skillicons.dev/icons?i=bash,linux,vscode&theme=dark&perline=8" /></td>
+</tr>
+<tr>
+<td align="right"><code>Services</code></td>
+<td>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" />
 <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
 <img src="https://img.shields.io/badge/Pinecone-000?style=for-the-badge&logo=pinecone&logoColor=white" />
 <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+</td>
+</tr>
+</table>
 
 </div>
 
