@@ -55,7 +55,7 @@ $ ls ~/toolkit/
 <div align="center">
 
 ```
-$ gh stats --user WeipengHu111
+$ gh stats --user WeipengHu111        # github-readme-stats + streak-stats
 ```
 
 <br/>
@@ -76,7 +76,7 @@ $ gh stats --user WeipengHu111
 <div align="center">
 
 ```
-$ wakatime --weekly
+$ wakatime --weekly                    # waka-readme-stats
 ```
 
 <!--START_SECTION:waka-->
@@ -118,7 +118,7 @@ No Activity Tracked This Week
 <div align="center">
 
 ```
-$ metrics --detailed
+$ metrics --detailed                   # lowlighter/metrics
 ```
 
 <img width="49%" src="./metrics-languages.svg" alt="Languages" />
@@ -133,7 +133,7 @@ $ metrics --detailed
 <div align="center">
 
 ```
-$ gh contribution-graph
+$ gh contribution-graph                # github-readme-activity-graph
 ```
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=WeipengHu111&theme=github-compact&hide_border=true&bg_color=0D1117&color=22C55E&line=06B6D4&point=FEBC2E&area=true&area_color=22C55E" />
