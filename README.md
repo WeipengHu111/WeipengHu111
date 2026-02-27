@@ -33,7 +33,7 @@ $ ls ~/toolkit/
 </tr>
 <tr>
 <td align="right"><code>Tools</code></td>
-<td><img src="https://skillicons.dev/icons?i=bash,linux,npm,vscode,storybook,postman&theme=dark&perline=8" /></td>
+<td><img src="https://skillicons.dev/icons?i=bash,linux,npm,vscode,storybook,postman,githubactions,slack&theme=dark&perline=8" /></td>
 </tr>
 <tr>
 <td align="right"><code>Services</code></td>
@@ -43,8 +43,6 @@ $ ls ~/toolkit/
 <img src="https://img.shields.io/badge/Pinecone-000?style=for-the-badge&logo=pinecone&logoColor=white" />
 <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" />
-<img src="https://img.shields.io/badge/PostHog-1D4AFF?style=for-the-badge&logo=posthog&logoColor=white" />
 </td>
 </tr>
 </table>
