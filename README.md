@@ -114,6 +114,21 @@ No Activity Tracked This Week
 
 <br/>
 
+<!-- METRICS — lowlighter/metrics -->
+<div align="center">
+
+```
+$ metrics --detailed
+```
+
+<img width="49%" src="./metrics-languages.svg" alt="Languages" />
+&nbsp;
+<img width="49%" src="./metrics-habits.svg" alt="Habits" />
+
+</div>
+
+<br/>
+
 <!-- ACTIVITY -->
 <div align="center">
 
