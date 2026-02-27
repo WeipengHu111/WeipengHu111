@@ -1,0 +1,153 @@
+<svg width="820" height="480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes grow1 { from { width: 0; } to { width: 330; } }
+      @keyframes grow2 { from { width: 0; } to { width: 310; } }
+      @keyframes grow3 { from { width: 0; } to { width: 290; } }
+      @keyframes grow4 { from { width: 0; } to { width: 320; } }
+      @keyframes grow5 { from { width: 0; } to { width: 300; } }
+      @keyframes grow6 { from { width: 0; } to { width: 270; } }
+      @keyframes grow7 { from { width: 0; } to { width: 280; } }
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      .cursor { animation: blink 1.2s step-end infinite; }
+      .f1 { animation: fadeIn 0.3s 0.1s both; }
+      .f2 { animation: fadeIn 0.3s 0.3s both; }
+      .f3 { animation: fadeIn 0.3s 0.5s both; }
+      .f4 { animation: fadeIn 0.3s 0.7s both; }
+      .f5 { animation: fadeIn 0.3s 0.9s both; }
+      .f6 { animation: fadeIn 0.3s 1.1s both; }
+      .f7 { animation: fadeIn 0.3s 1.3s both; }
+      .f8 { animation: fadeIn 0.3s 1.5s both; }
+      .f9 { animation: fadeIn 0.3s 1.7s both; }
+      .f10 { animation: fadeIn 0.3s 1.9s both; }
+      .f11 { animation: fadeIn 0.3s 2.1s both; }
+      .f12 { animation: fadeIn 0.3s 2.3s both; }
+      .bar1 { animation: grow1 0.8s 1.0s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .bar2 { animation: grow2 0.8s 1.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .bar3 { animation: grow3 0.8s 1.4s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .bar4 { animation: grow4 0.8s 1.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .bar5 { animation: grow5 0.8s 1.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .bar6 { animation: grow6 0.8s 2.0s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .bar7 { animation: grow7 0.8s 2.2s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; }
+    </style>
+    <!-- Bar track pattern -->
+    <pattern id="track" width="8" height="10" patternUnits="userSpaceOnUse">
+      <rect width="8" height="10" fill="#161B22"/>
+      <rect width="1" height="10" fill="#1C2333"/>
+    </pattern>
+  </defs>
+
+  <!-- ===== WINDOW FRAME ===== -->
+  <rect width="820" height="480" rx="12" fill="#0D1117"/>
+  <rect width="820" height="38" rx="12" fill="#161B22"/>
+  <rect y="26" width="820" height="12" fill="#161B22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="19" r="7" fill="#FF5F57"/>
+  <circle cx="46" cy="19" r="7" fill="#FEBC2E"/>
+  <circle cx="68" cy="19" r="7" fill="#28C840"/>
+
+  <!-- Title -->
+  <text x="410" y="24" text-anchor="middle" fill="#6B7280" class="mono" font-size="13">weipeng@github — htop</text>
+
+  <!-- ===== COMMAND ===== -->
+  <text x="28" y="70" class="mono f1" font-size="14">
+    <tspan fill="#22C55E">$</tspan>
+    <tspan fill="#E6EDF3"> who am i</tspan>
+  </text>
+  <text x="28" y="92" class="mono f2" font-size="14" fill="#E6EDF3" font-weight="bold">Weipeng Hu</text>
+  <text x="148" y="92" class="mono f2" font-size="14" fill="#6B7280">— Full Stack Developer</text>
+  <text x="28" y="114" class="mono f3" font-size="13" fill="#6B7280">Building products from mobile to cloud. Currently exploring AI Agents.</text>
+
+  <!-- ===== SEPARATOR ===== -->
+  <line x1="28" y1="130" x2="792" y2="130" stroke="#1C2333" stroke-width="1" class="f4"/>
+
+  <!-- ===== HTOP SKILLS ===== -->
+  <text x="28" y="152" class="mono f4" font-size="14">
+    <tspan fill="#22C55E">$</tspan>
+    <tspan fill="#E6EDF3"> htop --skills</tspan>
+  </text>
+
+  <!-- Header labels -->
+  <text x="28" y="178" class="mono f5" font-size="11" fill="#6B7280">SKILL</text>
+  <text x="150" y="178" class="mono f5" font-size="11" fill="#6B7280">USAGE</text>
+  <text x="510" y="178" class="mono f5" font-size="11" fill="#6B7280">STACK</text>
+
+  <!-- ROW 1: Flutter — green bar -->
+  <text x="28" y="202" class="mono f5" font-size="14" fill="#06B6D4">Flutter</text>
+  <!-- Track bg -->
+  <rect x="150" y="189" width="340" height="18" rx="3" fill="url(#track)" class="f5"/>
+  <!-- Animated bar -->
+  <rect x="150" y="189" height="18" rx="3" fill="#22C55E" opacity="0.85" class="bar1"/>
+  <text x="510" y="202" class="mono f5" font-size="13" fill="#6B7280">Dart, Riverpod, Freezed</text>
+
+  <!-- ROW 2: Django — cyan bar -->
+  <text x="28" y="232" class="mono f6" font-size="14" fill="#06B6D4">Django</text>
+  <rect x="150" y="219" width="340" height="18" rx="3" fill="url(#track)" class="f6"/>
+  <rect x="150" y="219" height="18" rx="3" fill="#06B6D4" opacity="0.85" class="bar2"/>
+  <text x="510" y="232" class="mono f6" font-size="13" fill="#6B7280">DRF, Python, Celery</text>
+
+  <!-- ROW 3: Next.js — purple bar -->
+  <text x="28" y="262" class="mono f7" font-size="14" fill="#06B6D4">Next.js</text>
+  <rect x="150" y="249" width="340" height="18" rx="3" fill="url(#track)" class="f7"/>
+  <rect x="150" y="249" height="18" rx="3" fill="#7C3AED" opacity="0.85" class="bar3"/>
+  <text x="510" y="262" class="mono f7" font-size="13" fill="#6B7280">React, TypeScript</text>
+
+  <!-- ROW 4: Python — yellow bar -->
+  <text x="28" y="292" class="mono f8" font-size="14" fill="#06B6D4">Python</text>
+  <rect x="150" y="279" width="340" height="18" rx="3" fill="url(#track)" class="f8"/>
+  <rect x="150" y="279" height="18" rx="3" fill="#FEBC2E" opacity="0.85" class="bar4"/>
+  <text x="510" y="292" class="mono f8" font-size="13" fill="#6B7280">Django, Scripts, AI</text>
+
+  <!-- ROW 5: Cloud — rose bar -->
+  <text x="28" y="322" class="mono f9" font-size="14" fill="#06B6D4">Cloud</text>
+  <rect x="150" y="309" width="340" height="18" rx="3" fill="url(#track)" class="f9"/>
+  <rect x="150" y="309" height="18" rx="3" fill="#F43F5E" opacity="0.85" class="bar5"/>
+  <text x="510" y="322" class="mono f9" font-size="13" fill="#6B7280">Firebase, GCP, Docker</text>
+
+  <!-- ROW 6: AI Agents — magenta bar -->
+  <text x="28" y="352" class="mono f10" font-size="14" fill="#06B6D4">AI</text>
+  <rect x="150" y="339" width="340" height="18" rx="3" fill="url(#track)" class="f10"/>
+  <rect x="150" y="339" height="18" rx="3" fill="#FF00FF" opacity="0.6" class="bar6"/>
+  <text x="510" y="352" class="mono f10" font-size="13" fill="#6B7280">Claude API, Agents</text>
+
+  <!-- ROW 7: Database — teal bar -->
+  <text x="28" y="382" class="mono f11" font-size="14" fill="#06B6D4">Database</text>
+  <rect x="150" y="369" width="340" height="18" rx="3" fill="url(#track)" class="f11"/>
+  <rect x="150" y="369" height="18" rx="3" fill="#2DD4BF" opacity="0.75" class="bar7"/>
+  <text x="510" y="382" class="mono f11" font-size="13" fill="#6B7280">PostgreSQL, Firestore</text>
+
+  <!-- ===== SEPARATOR ===== -->
+  <line x1="28" y1="400" x2="792" y2="400" stroke="#1C2333" stroke-width="1" class="f11"/>
+
+  <!-- ===== STATUS BAR ===== -->
+  <text x="28" y="422" class="mono f12" font-size="13">
+    <tspan fill="#6B7280">Mem:</tspan>
+    <tspan fill="#22C55E"> coffee</tspan>
+    <tspan fill="#6B7280">/</tspan>
+    <tspan fill="#E6EDF3">∞</tspan>
+    <tspan fill="#6B7280">    Uptime:</tspan>
+    <tspan fill="#E6EDF3"> always shipping</tspan>
+    <tspan fill="#6B7280">    Load:</tspan>
+    <tspan fill="#FEBC2E"> 99%</tspan>
+    <tspan fill="#6B7280"> motivation</tspan>
+  </text>
+
+  <!-- Color swatches (like htop color legend) -->
+  <rect x="28" y="440" width="16" height="10" rx="2" fill="#22C55E" class="f12"/>
+  <rect x="50" y="440" width="16" height="10" rx="2" fill="#06B6D4" class="f12"/>
+  <rect x="72" y="440" width="16" height="10" rx="2" fill="#7C3AED" class="f12"/>
+  <rect x="94" y="440" width="16" height="10" rx="2" fill="#FEBC2E" class="f12"/>
+  <rect x="116" y="440" width="16" height="10" rx="2" fill="#F43F5E" class="f12"/>
+  <rect x="138" y="440" width="16" height="10" rx="2" fill="#FF00FF" class="f12"/>
+  <rect x="160" y="440" width="16" height="10" rx="2" fill="#2DD4BF" class="f12"/>
+
+  <!-- PID info (htop vibe) -->
+  <text x="200" y="450" class="mono f12" font-size="11" fill="#374151">Tasks: 7 skills, 3 frameworks, 4 languages    PID: 2024</text>
+
+  <!-- Blinking cursor bottom right -->
+  <rect x="780" y="438" width="8" height="14" rx="1" fill="#22C55E" class="cursor"/>
+
+</svg>
