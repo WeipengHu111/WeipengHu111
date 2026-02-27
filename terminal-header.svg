@@ -2,13 +2,13 @@
   <defs>
     <style>
       @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      @keyframes grow1 { from { width: 0; } to { width: 300; } }
-      @keyframes grow2 { from { width: 0; } to { width: 260; } }
-      @keyframes grow3 { from { width: 0; } to { width: 220; } }
-      @keyframes grow4 { from { width: 0; } to { width: 280; } }
-      @keyframes grow5 { from { width: 0; } to { width: 240; } }
-      @keyframes grow6 { from { width: 0; } to { width: 180; } }
-      @keyframes grow7 { from { width: 0; } to { width: 200; } }
+      @keyframes grow1 { from { width: 0; } to { width: 330; } }
+      @keyframes grow2 { from { width: 0; } to { width: 310; } }
+      @keyframes grow3 { from { width: 0; } to { width: 290; } }
+      @keyframes grow4 { from { width: 0; } to { width: 320; } }
+      @keyframes grow5 { from { width: 0; } to { width: 300; } }
+      @keyframes grow6 { from { width: 0; } to { width: 270; } }
+      @keyframes grow7 { from { width: 0; } to { width: 280; } }
       @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
       .cursor { animation: blink 1.2s step-end infinite; }
       .f1 { animation: fadeIn 0.3s 0.1s both; }
