@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;AI+%2B+Mobile+%2B+Cloud;Always+shipping+%F0%9F%9A%80" alt="Typing SVG" /></a>
+
+<br/>
+
 <!-- Terminal SVG with neofetch + CSS animations -->
 <img width="720" src="./terminal-v2.svg" alt="terminal" />
 
