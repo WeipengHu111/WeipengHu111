@@ -14,15 +14,21 @@
 $ ls ~/toolkit/
 ```
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,swift,kotlin,go,ruby,py,ts&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=py,ts,js,dart,html,css,sass,tailwind&theme=dark&perline=8" />
 <br/>
-<img src="https://skillicons.dev/icons?i=js,html,css,sass,tailwind,django,nextjs,react&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=flutter,django,nextjs,react,redux,threejs,express,nodejs&theme=dark&perline=8" />
 <br/>
-<img src="https://skillicons.dev/icons?i=redux,threejs,express,nodejs,mongodb,mysql,postgres,redis&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,supabase,aws,gcp&theme=dark&perline=8" />
 <br/>
-<img src="https://skillicons.dev/icons?i=firebase,supabase,aws,gcp,docker,pytorch,tensorflow,sentry&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=docker,pytorch,tensorflow,sentry,vitest,figma,git,github&theme=dark&perline=8" />
 <br/>
-<img src="https://skillicons.dev/icons?i=vitest,figma,bash,linux,git,github,vscode&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=bash,linux,vscode&theme=dark&perline=8" />
+<br/><br/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" />
+<img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
+<img src="https://img.shields.io/badge/Pinecone-000?style=for-the-badge&logo=pinecone&logoColor=white" />
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
 
 </div>
 
