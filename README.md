@@ -16,6 +16,8 @@ $ ls ~/toolkit/
 
 <img src="https://skillicons.dev/icons?i=flutter,dart,django,py,nextjs,react,ts,js&theme=dark&perline=8" />
 <br/>
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,nodejs,express,mongodb,tensorflow,bash&theme=dark&perline=8" />
+<br/>
 <img src="https://skillicons.dev/icons?i=firebase,gcp,docker,postgres,redis,git,github,vscode&theme=dark&perline=8" />
 
 </div>
