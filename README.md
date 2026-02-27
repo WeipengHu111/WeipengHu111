@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Terminal SVG with neofetch + CSS animations -->
-<img width="720" src="./terminal-header.svg" alt="terminal" />
+<img width="720" src="https://raw.githubusercontent.com/WeipengHu111/WeipengHu111/main/terminal-header.svg" alt="terminal" />
 
 </div>
 
