@@ -33,7 +33,7 @@ $ ls ~/toolkit/
 </tr>
 <tr>
 <td align="right"><code>Tools</code></td>
-<td><img src="https://skillicons.dev/icons?i=bash,linux,npm,vscode,notion,postman,githubactions,storybook&theme=dark&perline=8" /></td>
+<td><img src="https://skillicons.dev/icons?i=bash,linux,npm,vscode,notion,postman,githubactions,playwright&theme=dark&perline=8" /></td>
 </tr>
 <tr>
 <td align="right"><code>Services</code></td>
