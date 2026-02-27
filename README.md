@@ -8,7 +8,7 @@
 <!-- Animated name reveal -->
 <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=40&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&width=500&height=60&lines=Weipeng+Hu" alt="Name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=400&size=18&duration=2000&pause=800&color=8B8DFF&center=true&vCenter=true&repeat=true&width=550&height=30&lines=Full+Stack+Developer;Building+AI-Powered+Products;Flutter+%E2%80%A2+Django+%E2%80%A2+Next.js;Shipping+Askitect+%E2%86%92+askitect.com" alt="Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=400&size=18&duration=2000&pause=800&color=8B8DFF&center=true&vCenter=true&repeat=true&width=550&height=30&lines=Full+Stack+Developer;Building+AI-Powered+Products;Flutter+%E2%80%A2+Django+%E2%80%A2+Next.js;From+Idea+to+Production+%E2%86%92" alt="Typing" />
 
 <br/>
 
@@ -31,23 +31,22 @@
 
 I build **full-stack products** from mobile to cloud.
 
-Currently crafting **[Askitect](https://github.com/WeipengHu111)** — an AI-powered Q&A platform that connects curious minds with intelligent answers.
-
 My stack spans **Flutter** apps, **Django** APIs, and **Next.js** frontends, all wired together with **AI agents** that actually do useful things.
+
+Passionate about turning ideas into polished, production-ready experiences across platforms.
 
 **Now exploring:** AI Agent Architecture — building systems where LLMs collaborate, not just chat.
 
 </td>
 <td width="50%" valign="top">
 
-### What I Ship
+### What I Build
 
 ```
-askitect/
-├── askitect-app/     # Flutter — iOS & Android
-├── backend/          # Django + DRF — API layer
-├── frontend/         # Next.js — Web experience
-└── askitect-agent/   # AI Agents — The brain
+mobile/     Flutter — iOS & Android
+backend/    Django + DRF — API layer
+frontend/   Next.js — Web experience
+agents/     AI Agents — The brain
 ```
 
 **Philosophy:**
